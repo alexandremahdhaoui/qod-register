@@ -1,0 +1,14 @@
+name: qod-register
+
+state:
+  engine: forge://github.com/alexandremahdhaoui/forge-ci/cmd/ci-state-git
+  spec:
+    path: .
+
+params:
+  quarantineDays: 7
+  admissionMaxSeverity: critical
+  deprecateAfterDays: 30
+  staleAfterDays: 180
+  deprecatedGraceDays: 30
+  maxTracksPerPackage: 2
